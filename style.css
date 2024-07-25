@@ -108,18 +108,51 @@ button.UpperSign{
 
 .QuoteSect{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    
+    
     background-color: #e5e7eb;
     padding: 150px;
 }
 .Quote{
     font-size: 36px;
+    justify-content: center;
+    align-items: center;
     font-style: light-italic;
     color: #1f2937;
 }
 .QuoteAuth{
     font-weight: bold;
-    text-align:right;
     font-size: 18px;
+    text-align: right;
+}
+
+.CallToAction{
+    display: flex;
+    padding: 60px 160px;
+}
+.CTAObj{
+    display:flex;
+    background-color:#3882f6;
+    padding: 45px 200px;
+    flex-direction: row;
+    gap: 150px;
+    align-items: center;
+}
+.CTATitle{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.CTASub{
+    color:#e5e7eb;
+}
+.BotSign{
+    color: white;
+    background:#3882f6;
+    border: solid;
+    border-color: white;
+    padding: 5px;
+    border-radius: 4px;
+    width: 100px;
 }
