@@ -1,0 +1,125 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+.header{
+    flex-direction: column;
+    background-color: #1f2937
+    
+}
+.HeadTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    margin: 0;
+    margin-right: 150px;
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+
+
+img.placeholder{
+    height: 200px;
+    width: 350px;
+}
+.HeadBottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+.HeroHeader{
+    color: #f9faf8;
+    font-weight: extra-bold;
+    font-size: 48px;
+}
+.HeroInfo{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.HeroLeft{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    gap: 5px;
+    padding: 50px;
+}
+button.UpperSign{
+    background: #3882f6;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+}
+
+
+
+.InfoSect{
+    padding: 50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+.InfoTitle{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+}
+.InfoTiles{
+    display: flex;
+
+}
+.tile{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+.TileImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 9px;   
+}
+
+
+
+.QuoteSect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 150px;
+}
+.Quote{
+    font-size: 36px;
+    font-style: light-italic;
+    color: #1f2937;
+}
+.QuoteAuth{
+    font-weight: bold;
+    text-align:right;
+    font-size: 18px;
+}
